@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-4 bg-slate-200 font-serif">
+    <nav class="relative container mx-auto">
+        <div class="flex items-center justify-center">
+           <a href="/index.html"> <img src="/images/unnamed.png" alt="" class="w-23 h-10"></a>
+        </div>
+       
+    </nav>
+    <section class="container mx-auto flex flex-col h-1/2 justify-center items-center mt-8">
+        
+        <div class="bg-gray-50 px-2 py-4 rounded-sm  shadow-md w-4/5 sm:w-2/5">
+            <div class="  px-2 py-3 rounded-md flex flex-col items-center mt-4">
+                <h1 class="font-serif text-2xl">Signin to ComX</h1>
+                <p class="text-sm font-semibold">Enter your login credentials</p>
+            </div>
+              
+
+    
+           
+
+              <form class=" h-16 px-5 mt-5">
+                <label for="email" class="mb-2">Your email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="border-2 border-gray-400  w-4/5 h-10 px-2 py-0 mt-2"><br>
+              </form> 
+
+              <form class=" h-16 px-5 mt-5">
+                <label for="password" class="mb-2">  Your password</label><br>
+                <input type="password" id="password" name="password" placeholder="Your password" class="border-2 border-gray-400 w-4/5 h-10 px-2 py-0 mt-2"><br>
+              </form> 
+
+              <div class="flex flex-row justify-between px-2 py-4">
+
+              <form action="/action_page.php">
+                <input type="checkbox" id="signin" name="signin" value="signin">
+                <label for="signin" class="text-sm">Stay signed in</label><br>
+              </form> 
+
+              <p class="text-sm text-red-600"> <a href="/sign.html/passwordreset.html"> Forgot your password? </a> </p>
+
+            </div>
+
+            
+                <div class="  px-2 py-3 rounded-md flex flex-col items-center mt-4">
+                    
+                    <button class="bg-green-900 text-white mx-auto rounded-sm w-4/5 h-10 mt-9 font-semibold"> <a href="/register.html">Sign in</a></button>
+
+                    <button class="bg-white text-black mx-auto rounded-sm w-4/5 h-10 mt-9 font-semibold"> <a href="/index.html">Back</a></button>
+                    
+                </div>
+        
+                </div>
+
+              
+
+              
+              
+
+              
+      
+
+    
+
+    
+        
+        <div class="flex-col mt-5 p-4 hidden">
+
+        <label for="birthday" class="text-sm hidden ">Date of incorporation:</label>
+        <input type="date" id="birthday" name="birthday">
+        </div>
+        
+        
+        </div>
+        
+
+        </div>
+        
+        
+            
+            </section>
+
+            
+            
+            
+</body>
+</html>
